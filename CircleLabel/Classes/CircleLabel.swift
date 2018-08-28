@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class CircleLabel : UIImageView
+@objc public class CircleLabel : UIImageView
 {
     public static let DEFAULT_COLOR_SCHEME:[UInt32] = [
         0xfff16364,
